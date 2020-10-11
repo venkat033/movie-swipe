@@ -5,5 +5,3 @@ Add pictures in a folder called pictures in your app directory..
 Uses tab navigation.
 
 Data is Present in global.js file
-
-(/screenshot/img.jpg?raw=true "Screenshot")
