@@ -76,7 +76,7 @@ export default class Match extends React.Component
                     These are your matches:
                 </Text>
                 { global.res.map((item)=>(
-         <Text key={item.id} style={styles.match}> { item.name } has similair interests to you! Connect with {item.name} on  <Icon onPress={() => Linking.openURL('https://www.facebook.com/venkatsrinivasan033/') } size   ={25} name={'logo-facebook'}/>  </Text>)
+         <Text key={item.id} style={styles.match}> { item.name } has similair interests to you! Connect with {item.name} on  <Icon onPress={() => Linking.openURL('facebook ID HERE') } size   ={25} name={'logo-facebook'}/>  </Text>)
          )}
             <Button onPress={this.rerenderforce} title="Refresh" style={styles.buttonst}></Button>
         
